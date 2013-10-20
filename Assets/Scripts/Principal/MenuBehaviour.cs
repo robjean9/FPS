@@ -2,15 +2,31 @@
 using System.Collections;
 
 public class MenuBehaviour : MonoBehaviour {
-
+	public float amountOfLight = 20;
+	public GameObject spotLight;
+	public bool lightBackGroundOn = false;
+	public GameObject plane;
+	
+	
 	// Use this for initialization
 	void Start () {
-	
+		
+		lightBackGroundOn = false;
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if(!lightBackGroundOn){
+			spotLight.light.range += -1;
+		}
+		if(spotLight.light.range == 0){
+			spotLight.light.range = 20;
+			lightBackGroundOn = true;
+		}
+		
+		plane.transform.Rotate(new Vector3(0,1,0));
+			
 	}
 	
 	

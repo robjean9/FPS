@@ -1,6 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Principal\MenuBehaviour.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CharacterBase.cs" Line="17" Column="22" />
+      <File FileName="Assets\Scripts\PlayerBehaviour.cs" Line="26" Column="3" />
+      <File FileName="Assets\Scripts\EnemyBehaviour.cs" Line="12" Column="13" />
+      <File FileName="Assets\Scripts\WeaponBase.cs" Line="172" Column="1" />
+      <File FileName="Assets\Scripts\Principal\MenuBehaviour.cs" Line="40" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
